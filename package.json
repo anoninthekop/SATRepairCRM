@@ -1,6 +1,6 @@
 {
     "devDependencies": {
-        "@symfony/webpack-encore": "1.0.0",
+        "@symfony/webpack-encore": "^1.8.1",
         "core-js": "3.0.0",
         "file-loader": "6.0.0",
         "regenerator-runtime": "0.13.2",
@@ -14,5 +14,10 @@
         "watch": "encore dev --watch",
         "build": "encore production --progress"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "name": "SATRepairCRM",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/anoninthekop/SATRepairCRM.git",
+    "author": "anoninthekop <ahnaf7813@gmail.com>"
 }
